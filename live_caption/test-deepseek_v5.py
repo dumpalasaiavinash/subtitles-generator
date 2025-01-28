@@ -12,7 +12,7 @@ SetLogLevel(-1)
 
 class SmoothCaptions:
     def __init__(self):
-        self.model = Model("model")
+        self.model = Model("model-us-en")
         self.sample_rate = 16000
         self.recognizer = KaldiRecognizer(self.model, self.sample_rate)
         self.recognizer.SetWords(False)

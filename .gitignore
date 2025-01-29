@@ -40,3 +40,5 @@ luac.out
 *.hex
 
 /live_caption/env
+/test/live_caption/env
+/test/live_caption_optimised/env
